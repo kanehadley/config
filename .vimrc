@@ -29,6 +29,7 @@ syntax on
 set background=dark
 set expandtab
 autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
+autocmd FileType python setlocal shiftwidth=4 tabstop=4
 set foldmethod=syntax
 set foldcolumn=4
 set foldlevel=99
