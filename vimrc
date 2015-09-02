@@ -33,9 +33,11 @@ autocmd FileType python setlocal shiftwidth=4 tabstop=4 foldmethod=indent
 autocmd FileType lisp setlocal shiftwidth=4 tabstop=4 foldmethod=marker foldmarker=(,) lisp syntax=lisp
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 set foldmethod=syntax
-set foldcolumn=4
 set foldlevel=99
 set number
+set visualbell
+nmap <leader> :set list!<CR>
+set list
 
 au FileType javascript call JavaScriptFold()
 
